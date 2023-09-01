@@ -1,0 +1,25 @@
+@import 'animation.css';
+.bounce_anime{
+    animation: bounce 3s alternate infinite;
+
+}
+.jello{
+     animation:jello 3s alternate infinite;
+     animation-delay: 4s;
+    
+}
+.jello:hover{
+    animation-play-state: paused;
+
+}
+.heartbeat{
+    animation:heartBeat 3s alternate infinite;
+}
+.shakex_anime{
+    animation: shakeX  infinite alternate ;
+    animation-delay: 5s;
+}
+.shakex_anime:hover{
+    animation-play-state: paused;
+}
+
