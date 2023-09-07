@@ -1,4 +1,4 @@
-@import 'animation.css';
+@import 'animate.css';
 .bounce_anime{
     animation: bounce 3s alternate infinite;
 
@@ -16,10 +16,9 @@
     animation:heartBeat 3s alternate infinite;
 }
 .shakex_anime{
-    animation: shakeX  infinite alternate ;
+    animation: shakeX cubic-bezier(0.455, 0.03, 0.515, 0.955) 3s infinite ;
     animation-delay: 5s;
 }
 .shakex_anime:hover{
     animation-play-state: paused;
 }
-
